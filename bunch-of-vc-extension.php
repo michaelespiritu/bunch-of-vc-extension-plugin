@@ -77,9 +77,11 @@ if ( is_plugin_active( 'js_composer/js_composer.php' ) )
 
 function bovce_before_init_actions()
 {
-  require_once BOVCE_DIR_ELEMENTS . "/Testimonial.php";
   require_once BOVCE_DIR_ELEMENTS . "/Partners.php";
-  require_once BOVCE_DIR_ELEMENTS . "/BulletinBoard.php";
-  require_once BOVCE_DIR_ELEMENTS . "/SimpleImageWithLabel.php";
   require_once BOVCE_DIR_ELEMENTS . "/Speedometer.php";
+  require_once BOVCE_DIR_ELEMENTS . "/Testimonial.php";
+  require_once BOVCE_DIR_ELEMENTS . "/BulletinBoard.php";
+  require_once BOVCE_DIR_ELEMENTS . "/ImageWithIconAndText.php";
+  require_once BOVCE_DIR_ELEMENTS . "/SimpleImageWithLabel.php";
+  require_once BOVCE_DIR_ELEMENTS . "/HoverableImageWithText.php";
 }

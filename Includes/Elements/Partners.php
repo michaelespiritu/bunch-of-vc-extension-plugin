@@ -18,8 +18,8 @@ if(!class_exists('bovcePartnersBox'))
 
       function front_end_css(){
 
-          wp_register_style( 'bunch-of-vc-extension', plugins_url( 'bunch_of_vc_extension/Includes/Assets/css/partners.css' ));
-          wp_enqueue_style('bunch-of-vc-extension');
+          wp_register_style( 'bunch-of-vc-extension-partners', plugins_url( 'bunch_of_vc_extension/Includes/Assets/css/partners.css' ));
+          wp_enqueue_style( 'bunch-of-vc-extension-partners' );
 
 
       }
